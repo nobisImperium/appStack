@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "QuickStart",
+  "itemDisplayName": "appStack Deployment",
+  "description": "Build a multi-host application stack in a given Resource Group - Developer setup on Linux VM",
+  "summary": "Create a Linux VM with base configuration and via Microsoft extensions further automate per host .json ",
+  "githubUsername": "nobisImperium",
+  "dateUpdated": "2019-04-03"
+}
+
+
