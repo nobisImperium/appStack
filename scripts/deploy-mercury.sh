@@ -18,12 +18,12 @@ linuxos="redhat-release"
 	# enable software collection PHP in bash
 	scl enable rh-php71 bash
 	# Install python virtualenv package
-	sudo yum -y install python-virtualenv
+	# sudo yum -y install python-virtualenv
 	#### Install 'pip' Python Package Installer from - https://pip.pypa.io/en/stable/
-	sudo wget "https://bootstrap.pypa.io/get-pip.py" -O /tmp/get-pip.py
-	sudo python /tmp/get-pip.py
+	# sudo wget "https://bootstrap.pypa.io/get-pip.py" -O /tmp/get-pip.py
+	# sudo python /tmp/get-pip.py
 	# clean up temp file
-	rm -f /tmp/get-pip.py
+	# rm -f /tmp/get-pip.py
 
 
 # Add the GitLab package repository and install the package
