@@ -6,17 +6,17 @@ linuxos="redhat-release"
 #1 Install all platform prerequisites: Essentially a LAMP Stack and Development Tools
 
 	# Base Packages System/Wide/Libs/etc
-	sudo yum clean all
+	# sudo yum clean all
 	# Enable EPEL Release and Software Collections Repos
-	sudo yum -y install epel-release centos-release-scl
+	#sudo yum -y install epel-release centos-release-scl
 	# On RHEL, enable RHSCL repository for you system:
-	sudo yum-config-manager --enable rhel-server-rhscl-7-rpms
+	# sudo yum-config-manager --enable rhel-server-rhscl-7-rpms
 	# install Development Tools
 	sudo yum -y groupinstall 'Development Tools'
 	# Install RedHat Python 3.6
-	sudo yum -y install rh-python36
+	# sudo yum -y install rh-python36
 	# enable software collection PHP in bash
-	scl enable rh-php71 bash
+	# scl enable rh-php71 bash
 	# Install python virtualenv package
 	# sudo yum -y install python-virtualenv
 	#### Install 'pip' Python Package Installer from - https://pip.pypa.io/en/stable/
