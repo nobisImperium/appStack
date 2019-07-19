@@ -31,12 +31,12 @@ linuxos="redhat-release"
 
 
 # "LAMP" Stack Requirements - we MUST use a "Modern" release of PHP >= 7.0 for security and compatibility needs. Install PHP 7.1 Modules and Apache 2.4 from Software Collections Library for CentOS 7
-	sudo yum -y install rh-php71 rh-php71-php rh-php71-php-bcmath rh-php71-php-cli rh-php71-php-common rh-php71-php-dba rh-php71-php-embedded rh-php71-php-enchant rh-php71-php-fpm rh-php71-php-gd rh-php71-php-intl \
-	rh-php71-php-ldap rh-php71-php-mbstring rh-php71-php-mysqlnd rh-php71-php-odbc rh-php71-php-pdo rh-php71-php-pear rh-php71-php-pecl-apcu rh-php71-php-pgsql rh-php71-php-process rh-php71-php-pspell rh-php71-php-recode \
-	rh-php71-php-snmp rh-php71-php-soap rh-php71-php-xml rh-php71-php-xmlrpc sclo-php71-php-imap sclo-php71-php-mcrypt sclo-php71-php-pecl-amqp sclo-php71-php-pecl-apcu-bc sclo-php71-php-pecl-apfd sclo-php71-php-pecl-geoip \
-	sclo-php71-php-pecl-http sclo-php71-php-pecl-igbinary sclo-php71-php-pecl-imagick sclo-php71-php-pecl-lzf sclo-php71-php-pecl-memcached sclo-php71-php-pecl-mongodb sclo-php71-php-pecl-msgpack sclo-php71-php-pecl-propro \
-	sclo-php71-php-pecl-raphf sclo-php71-php-pecl-redis sclo-php71-php-pecl-selinux sclo-php71-php-pecl-solr2 sclo-php71-php-pecl-uploadprogress sclo-php71-php-pecl-uuid sclo-php71-php-pecl-xattr sclo-php71-php-pecl-xdebug \
-	sclo-php71-php-tidy httpd24 httpd24-mod_ssl
+	sudo yum -y install rh-php72 yum -y install rh-php72 rh-php72-php rh-php72-php-bcmath rh-php72-php-cli rh-php72-php-common rh-php72-php-dba rh-php72-php-embedded rh-php72-php-enchant rh-php72-php-fpm rh-php72-php-gd rh-php72-php-intl  
+rh-php72-php-ldap rh-php72-php-mbstring rh-php72-php-mysqlnd rh-php72-php-odbc rh-php72-php-pdo rh-php72-php-pear rh-php72-php-pecl-apcu rh-php72-php-pgsql rh-php72-php-process rh-php72-php-pspell 
+rh-php72-php-recode rh-php72-php-snmp rh-php72-php-soap rh-php72-php-xml rh-php72-php-xmlrpc sclo-php72-php-imap sclo-php72-php-mcrypt sclo-php72-php-pecl-amqp sclo-php72-php-pecl-apcu-bc 
+sclo-php72-php-pecl-apfd sclo-php72-php-pecl-geoip sclo-php72-php-pecl-http sclo-php72-php-pecl-igbinary sclo-php72-php-pecl-imagick sclo-php72-php-pecl-lzf sclo-php72-php-pecl-memcached 
+sclo-php72-php-pecl-mongodb sclo-php72-php-pecl-msgpack sclo-php72-php-pecl-propro sclo-php72-php-pecl-raphf sclo-php72-php-pecl-redis sclo-php72-php-pecl-selinux sclo-php72-php-pecl-solr2 
+sclo-php72-php-pecl-uploadprogress sclo-php72-php-pecl-uuid sclo-php72-php-pecl-xattr sclo-php72-php-pecl-xdebug sclo-php72-php-tidy httpd24 httpd24-mod_ssl
 	# Stop regular redhat-release httpd service if present, disable for subsequent boots into this runlevel
 	sudo systemctl stop httpd.service
 	sudo systemctl disable httpd.service
