@@ -1,5 +1,5 @@
 #0 Script initialization
-### Static Steelscript Vars
+
 linuxos="redhat-release"
 
 ############################################################################################
@@ -28,18 +28,6 @@ linuxos="redhat-release"
 
 # Add the GitLab package repository and install the package
 # curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
-
-# Install gitlab, accessible via hostmane/url provided
-# sudo EXTERNAL_URL="http://windowpane-mercury.usgovvirginia.cloudapp.usgovcloudapi.net/" yum install -y gitlab-ee
-
-# Enable Foreman repo
-# sudo yum -y install https://yum.theforeman.org/releases/1.20/el7/x86_64/foreman-release.rpm
-
-# Install Foreman Installer
-# sudo yum -y install foreman-installer
-
-# install Foreman
-# sudo foreman-installer
 
 # Add the PostgreSQL repo
 #        sudo rpm -Uvh https://yum.postgresql.org/10/redhat/rhel-7-x86_64/pgdg-centos10-10-2.noarch.rpm
